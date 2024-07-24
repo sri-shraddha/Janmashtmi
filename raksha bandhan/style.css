@@ -1,0 +1,34 @@
+.nav-links {
+    overflow: hidden;
+    background-color:rgb(245, 141, 14);
+}
+
+.nav-links ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+
+}
+.nav-links li {
+    float: left;
+    font-size: large;
+}
+
+.nav-links a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.nav-links a:hover {
+    background-color: #ddd;
+    color: blueviolet;
+  
+}
+body{
+    background-image: url("https://images.hindustantimes.com/img/2021/08/29/original/Janmashtami2_960_(1)_1630234683522.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
